@@ -28,13 +28,13 @@ module.exports = {
     path: resolve("./public")
   },
   resolve: {
-    modules: [resolve("node_modules")]
+    modules: [resolve("./node_modules")]
   },
   externals: {
     "PIXI": "PIXI"
   },
   devServer: {
-    contentBase: resolve('public'),
+    contentBase: resolve('./public'),
     port: 8080
   },
   module: {
