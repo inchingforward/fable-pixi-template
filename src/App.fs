@@ -1,18 +1,15 @@
 module FablePixiTemplate
 
-open System
-open Fable.Core
 open Fable.Core.JsInterop
-open Fable.Import
 open Fable.Import.Pixi
 open Fable.Import.Browser
-open Fable.Import.JS
 
 let options = jsOptions<PIXI.ApplicationOptions> (fun o ->
     o.backgroundColor <- Some 0x000000
 )
+
 let app = PIXI.Application(400., 400., options)
-Browser.document.body.appendChild(app.view) |> ignore
+document.body.appendChild(app.view) |> ignore
 
 // create a new Sprite from an image path
 let bunny = PIXI.Sprite.fromImage("fable_logo_small.png")
