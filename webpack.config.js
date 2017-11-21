@@ -1,4 +1,3 @@
-var fs = require("fs");
 var path = require("path");
 var webpack = require("webpack");
 var fableUtils = require("fable-utils");
@@ -11,7 +10,7 @@ var babelOptions = fableUtils.resolveBabelOptions({
   "presets": [
     ["env", {
       "targets": {
-        "browsers": ["last 2 versions", "safari >= 7"]
+        "browsers": ["> 1%"]
       },
       "modules": false
     }]
@@ -23,19 +22,13 @@ console.log("Bundling for " + (isProduction ? "production" : "development") + ".
 
 module.exports = {
   devtool: isProduction ? undefined : "source-map",
-  entry: "./src/App.fsproj",
+  entry: resolve("./src/App.fsproj"),
   output: {
-    filename: "[name]/bundle.js",
-    path: resolve('public'),
-    publicPath: '/'
+    filename: "bundle.js",
+    path: resolve("./public")
   },
   resolve: {
-    modules: [
-      "node_modules", resolve("node_modules")
-    ]
-  },
-  node: {
-    fs: 'empty'
+    modules: [resolve("node_modules")]
   },
   externals: {
     "PIXI": "PIXI"
