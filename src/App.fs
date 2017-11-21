@@ -15,7 +15,7 @@ let app = PIXI.Application(400., 400., options)
 Browser.document.body.appendChild(app.view) |> ignore
 
 // create a new Sprite from an image path
-let bunny = PIXI.Sprite.fromImage("../public/img/fable_logo_small.png")
+let bunny = PIXI.Sprite.fromImage("fable_logo_small.png")
 
 let renderer : PIXI.WebGLRenderer = !!app.renderer
 
