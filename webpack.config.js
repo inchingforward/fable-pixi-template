@@ -7,10 +7,10 @@ function resolve(filePath) {
 }
 
 var babelOptions = fableUtils.resolveBabelOptions({
-  "presets": [
+  presets: [
     ["env", {
       "targets": {
-        "browsers": ["> 1%"]
+        "browsers": "> 1%"
       },
       "modules": false
     }]
@@ -28,7 +28,7 @@ module.exports = {
     path: resolve("./public")
   },
   resolve: {
-    modules: [resolve("./node_modules")]
+    modules: [resolve("./node_modules/")]
   },
   externals: {
     "PIXI": "PIXI"
