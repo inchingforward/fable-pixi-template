@@ -13,7 +13,7 @@ This template is currently available as a filesystem template.  To install:
 
 Once the template has been installed, you can use it to create a new Fable Pixi application:
 
-* Create the app:  `dotnet new fable-pixi MyCoolProject`
+* Create the app:  `dotnet new fable-pixi -n MyCoolProject`
 
 ## Building and running the app
 
