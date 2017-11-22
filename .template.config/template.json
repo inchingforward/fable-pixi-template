@@ -1,15 +1,13 @@
 {
     "author": "inchingforward",
-    "classifications": [ "Fable" ],
+    "classifications": [ "F#", "Fable", "Pixi" ],
     "name": "Fable Pixi App",
     "tags": {
       "language": "F#",
       "type": "project"
     },
     "identity": "Fable.Pixi.Template",
-    "groupIdentity": "Fable/Pixi",
     "shortName": "fable-pixi",
-    "sourceName": "FablePixiTemplate",
     // This allows using the `-n` option to create a new directory
     "preferNameDirectory": true
   }
