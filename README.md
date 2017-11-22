@@ -1,11 +1,8 @@
-# fable-pixi
-A Fable Pixi template
+# FablePixiTemplate
 
-NOTE:  this is a work in progress.  It does not work correctly yet.
+A Fable Pixi template.
 
 ## Building and running the app
-
-> In the commands below, yarn is the tool of choice. If you want to use npm, just replace `yarn` by `npm` in the commands.
 
 * Install JS dependencies: `yarn install`
 * Move to `src` folder: `cd src`

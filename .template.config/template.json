@@ -6,6 +6,7 @@
       "language": "F#",
       "type": "project"
     },
+    "sourceName": "FablePixiTemplate",
     "identity": "Fable.Pixi.Template",
     "shortName": "fable-pixi",
     // This allows using the `-n` option to create a new directory
