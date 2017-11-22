@@ -17,6 +17,7 @@ Once the template has been installed, you can use it to create a new Fable Pixi 
 
 ## Building and running the app
 
+* Move to the project's root directory: `cd MyCoolProject`
 * Install JS dependencies: `yarn install`
 * Move to `src` folder: `cd src`
 * Install F# dependencies: `dotnet restore`
