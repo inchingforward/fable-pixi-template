@@ -1,13 +1,10 @@
-# FablePixiTemplate
+# fable-pixi-template
 
 A Fable Pixi template.
 
 ## Installing the template
 
-This template is currently available as a filesystem template.  To install:
-
-* Clone the template to your filesystem: `git clone https://github.com/inchingforward/fable-pixi-template`
-* Install the template: `dotnet install -i ./fable-pixi-template/`
+* Install the template: `dotnet install -i Fable.Template.Pixi`
 
 ## Creating a new app
 
