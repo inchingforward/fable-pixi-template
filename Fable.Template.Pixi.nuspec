@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>Fable.Template.Pixi</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <authors>Mike Janger</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <licenseUrl>https://github.com/inchingforward/fable-pixi-template/blob/master/LICENSE</licenseUrl>
