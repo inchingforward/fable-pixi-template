@@ -1,6 +1,6 @@
 # fable-pixi-template
 
-A Fable Pixi template.  See the [Pixi Samples](https://github.com/fable-compiler/samples-pixi) project for examples on how to create cool stuff using Fable and Pixi.js.
+A Fable Pixi template.  See the [Pixi Samples](https://github.com/fable-compiler/samples-pixi) project for examples on how to create cool stuff using Fable and PixiJS.
 
 ## Installing the template
 
@@ -20,3 +20,8 @@ Once the template has been installed, you can use it to create a new Fable Pixi 
 * Install F# dependencies: `dotnet restore`
 * Start Fable daemon and [Webpack](https://webpack.js.org/) dev server: `dotnet fable yarn-start`
 * In your browser, open: http://localhost:8080/
+
+## Next Steps
+
+* Check out the the [Pixi Samples](https://github.com/fable-compiler/samples-pixi) project.
+* Browse the [PixiJS](http://www.pixijs.com) site for [docs](http://pixijs.download/release/docs/index.html), [tutorials](http://www.pixijs.com/tutorials) and more.
