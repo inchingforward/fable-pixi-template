@@ -1,6 +1,6 @@
 # fable-pixi-template
 
-A Fable Pixi template.
+A Fable Pixi template.  See the [Pixi Samples](https://github.com/fable-compiler/samples-pixi) project for examples on how to create cool stuff using Fable and Pixi.js.
 
 ## Installing the template
 
