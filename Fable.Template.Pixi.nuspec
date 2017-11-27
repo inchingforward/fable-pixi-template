@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Fable.Template.Pixi</id>
+    <version>1.0.0</version>
+    <authors>Mike Janger</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/inchingforward/fable-pixi-template/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/inchingforward/fable-pixi-template</projectUrl>
+    <description>Fable.Template.Pixi App</description>
+    <tags>fable pixi template fsharp</tags>
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+    <repository url="https://github.com/inchingforward/fable-pixi-template.git" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+  </metadata>
+</package>
