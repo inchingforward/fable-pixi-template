@@ -4,7 +4,7 @@ A Fable Pixi template.  See the [Pixi Samples](https://github.com/fable-compiler
 
 ## Installing the template
 
-* Install the template: `dotnet install -i Fable.Template.Pixi`
+* Install the template: `dotnet new -i Fable.Template.Pixi`
 
 ## Creating a new app
 
